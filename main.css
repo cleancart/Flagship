@@ -12,6 +12,7 @@ body {
     sans-serif;
   font-size: 18px;
   font-weight: 500;
+  background-color: #F5F5F5;
 }
 
 main {
@@ -25,12 +26,11 @@ img {
 
 /*------ Header ------*/
 header {
-  background-color: #162635;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 94px;
-  position: fixed;
+  margin-top: 30px;
   width: 100%;
   z-index: 10;
 }
@@ -45,18 +45,17 @@ header > div {
 
 .download-cta {
   align-items: center;
-  background: #256454;
-  border: 3px solid #20bc69;
-  border-radius: 6px;
+  background: black;
+  border-radius: 16px;
   color: white;
   display: flex;
   flex-shrink: 0;
   font-size: 16px;
   font-weight: bold;
-  height: 48px;
+  height: 56px;
   justify-content: center;
   text-decoration: none;
-  width: 200px;
+  width: 224px;
 }
 
 /*------ Typography ------*/
@@ -110,7 +109,7 @@ p {
   align-self: center;
   display: flex;
   flex-direction: column;
-  margin-top: 120px;
+  margin-top: 30px;
   max-width: 980px;
 }
 
@@ -199,7 +198,7 @@ p {
 .button {
   align-items: center;
   background: white;
-  border-radius: 6px;
+  border-radius: 16px;
   color: #20bc69;
   display: flex;
   font-size: 18px;
@@ -244,14 +243,14 @@ p {
 }
 
 #teaser img {
-  bottom: -32px;
+  bottom: -0px;
   position: absolute;
   right: 0;
 }
 
 /*------ Donation CTA/Footer ------*/
 #donate {
-  background-color: #162635;
+  background-color: black;
   color: white;
   display: flex;
   justify-content: center;
@@ -292,7 +291,7 @@ footer a {
 
 footer {
   align-items: center;
-  background-color: #162635;
+  background-color: black;
   color: white;
   display: flex;
   height: 94px;
