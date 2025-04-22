@@ -114,6 +114,11 @@ p {
   max-width: 980px;
 }
 
+#cta h1 {
+  margin-top: 24px;
+  font-weight: 900;
+}
+
 #cta .content {
   margin-bottom: 24px;
   max-width: 900px;
@@ -122,6 +127,7 @@ p {
 #cta p {
   font-weight: 400;
   letter-spacing: -1%;
+  margin-bottom: 24px;
 }
 
 #cta strong {
@@ -238,7 +244,7 @@ p {
 }
 
 #teaser img {
-  bottom: -10px;
+  bottom: -32px;
   position: absolute;
   right: 0;
 }
